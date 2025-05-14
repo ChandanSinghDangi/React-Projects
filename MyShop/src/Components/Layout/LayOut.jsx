@@ -29,7 +29,7 @@ function LayOut() {
 
     async function getData() {
       
-      const response = await fetch('/api/products');
+      const response = await fetch('https://fakestoreapi.com/products');
       if(!response) return console.log("Didn't got Response fro Api");
       
       const data = await response.json();
