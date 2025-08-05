@@ -1,0 +1,19 @@
+
+/* @plugin "daisyui"; */
+@import "@tailwindcss/line-clamp";
+
+@layer utilities {
+ 
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+}
+
+
+
+
+
+
+
+
