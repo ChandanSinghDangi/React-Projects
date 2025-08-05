@@ -59,7 +59,7 @@ function Signup() {
                     type='name'
                     className='bg-white backdrop-blur-md w-4/4 pl-5 text-xl 
                     placeholder:text-gray-700 rounded-md p-3 outline-none 
-                    sm:mt-2 mb-1 caret-white text-black'
+                    sm:mt-2 mb-1 caret-black text-black'
                     {...register('name', {
                         required: true
                     })}
@@ -70,7 +70,7 @@ function Signup() {
                     type='email'
                     className='bg-white backdrop-blur-md w-4/4 pl-5 text-xl 
                     placeholder:text-gray-700 rounded-md p-3 outline-none 
-                    sm:mt-2 mb-1 caret-white text-black'
+                    sm:mt-2 mb-1 caret-black text-black'
                     {...register('email', {
                         required: true,
                         validate: {
@@ -81,11 +81,11 @@ function Signup() {
                 />
                 <Input 
                     label='Password : '
-                    placeholder='Passoword'
+                    placeholder='Password'
                     type= 'password'
                     className='bg-white backdrop-blur-md w-4/4 pl-5 text-xl 
                     placeholder:text-gray-700 rounded-md p-3 outline-none 
-                    sm:mt-2 caret-white text-black'
+                    sm:mt-2 caret-black text-black'
                     {...register('password', {
                         required: true
                     })}

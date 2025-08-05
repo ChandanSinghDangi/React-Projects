@@ -52,7 +52,7 @@ function Login() {
                     type='email'
                     className='bg-white backdrop-blur-md max-w-4/4 pl-5 text-xl 
                     placeholder:text-gray-700 rounded-md p-3 outline-none 
-                    sm:mt-2 mb-3 caret-white text-black'
+                    sm:mt-2 mb-3 caret-black text-black'
                     {...register('email', {
                         required: true,
                         validate: {
@@ -63,7 +63,7 @@ function Login() {
                 />
                 <Input 
                     label='Password : '
-                    placeholder='Passoword'
+                    placeholder='Password'
                     type= 'password'
                     className='bg-white backdrop-blur-md w-4/4 pl-5 text-xl 
                     placeholder:text-gray-700 rounded-md p-3 outline-none mt-2 caret-black'
